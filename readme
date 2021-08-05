@@ -1,0 +1,27 @@
+The Object Price Detector py file has the all the code required for this Motion Picture Detection and E-Commerce Mapping module
+
+Used the custom trained MobileNetSSD_deploy.caffemodel for Object Detection and included config and weight files in the folder
+
+
+Object Detection
+
+Used the cv2 and matplotlib modules
+A video of the object is given as input and the pre-trained model detects it to the 80 daily objects it has been trained. The 80 objects are mentioned in the Labels.txt
+The model detects the object in the video and marks a boundary indicating the object
+Similarly, All the objects detected in the video is appended to the 'arr'list.
+
+Then the repetitive values is screened and every unique object is found
+Then if there was any person detected in the video  that will be screened from the 'arr' list.
+The remaining unique objects are stored in the 'result' list and fed for E-Commerce Mapping
+
+E-Commerce Mapping and User Interface
+
+
+Used the webbrowser module
+
+The elements in the 'result' array from the Object Detection is input into the for loop to search for them in the e-commerce website.
+
+
+
+
+
