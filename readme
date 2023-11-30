@@ -21,7 +21,7 @@ Used the webbrowser module
 
 The elements in the 'result' array from the Object Detection is input into the for loop to search for them in the e-commerce website.
 
-
+------
 
 
 
